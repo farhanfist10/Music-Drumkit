@@ -1,0 +1,168 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: #22A699;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.header1{
+    display: inline-flex;
+    width: 50%;
+    height: 50px;
+    align-items: center;
+    margin-left: 25%;
+    
+  
+}
+h1{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-bottom: dotted 1px black;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+    flex-grow: 1;
+    text-align: center;
+    color:rgb(249, 239, 239);
+    transition: all 0.3s ease 0s;
+
+}
+a:hover{
+    background-color: rgb(6, 119, 50);
+    border-radius: 25px;    
+}
+#banner{
+    height: 350px;
+    background-color: #E7B10A;
+    text-align: center;
+    padding: 10%;
+    /*  */
+}
+
+.im{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+#banner img{
+    padding-right: 10px;
+    border-radius: 30px;
+}
+li{
+    list-style: none;
+}
+
+
+
+/* featured products */
+#featured-products{
+    background-color: #898121;
+    height: 500px;
+    width: 100%;
+}
+.co{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 20px;  
+    justify-content: space-around;
+    text-align: center;
+}
+#featured-products h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2.2em;
+    color: #f7f3f3;
+}
+#special-offers{
+    background-color: #E7B10A;
+    height: 400px;
+    text-align: center;
+    padding-top: 10px;
+    /* display: inline-flex; */
+}
+.coo{
+    padding-top: 40px;
+    text-align: center;
+}
+.coo ul li{
+    display:  inline-block;
+    padding-left: 10px;
+   
+
+}
+#store-locations{
+    background-color: #2b7ea5;
+    height: 600px;
+}
+.map{
+    text-align: center;
+}
+.store{
+    text-align: center;
+}
+.store h2{
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-size: 2.2em;
+    color: white;
+}
+#contact{
+    background-color: #F2BE22;
+    height: 510px;
+    background-image: url("cake2.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    width: 100%;
+}
+
+.cont{
+    background-color: #a62287;
+    background-image: url("cake2.jpg");
+    background-size: contain;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 40%;
+    padding: 74px;
+    text-align: center;
+}
+
+input[type=text]
+{
+    text-align: center;
+    padding: 10px 2px;
+    background-color: black;
+    color: white;
+}
+input[type=email]
+{
+    text-align: center;
+    padding: 10px 2px;
+    background-color: black;
+    color: white;
+}
+textarea{
+    background-color: black;
+    color: white;
+}
+button{
+    text-align: center;
+    padding: 7px;
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: #F29727;
+}
+footer{
+    background-color: teal;
+    height: 150px;
+    text-align: center;
+    padding-top: 60px;
+}
